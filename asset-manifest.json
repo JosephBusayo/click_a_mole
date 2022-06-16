@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/click_a_mole/static/css/main.986e4299.css",
+    "main.js": "/click_a_mole/static/js/main.91a76fe5.js",
+    "static/js/787.9cb3e5b4.chunk.js": "/click_a_mole/static/js/787.9cb3e5b4.chunk.js",
+    "static/media/mole.jpg": "/click_a_mole/static/media/mole.7278bbaa50d615f37160.jpg",
+    "static/media/molehill.jpg": "/click_a_mole/static/media/molehill.fc73da6aade85d638083.jpg",
+    "index.html": "/click_a_mole/index.html",
+    "main.986e4299.css.map": "/click_a_mole/static/css/main.986e4299.css.map",
+    "main.91a76fe5.js.map": "/click_a_mole/static/js/main.91a76fe5.js.map",
+    "787.9cb3e5b4.chunk.js.map": "/click_a_mole/static/js/787.9cb3e5b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.986e4299.css",
+    "static/js/main.91a76fe5.js"
+  ]
+}
