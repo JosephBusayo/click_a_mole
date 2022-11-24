@@ -28,8 +28,13 @@ function App() {
   return (
     <div className="App">
       <h1>Click-a-Mole</h1>
-      {createMoleHill()}
-      {score }
+
+      <p>{score} </p>
+
+      <div className="wrapper">
+        {createMoleHill()}
+      </div>
+
     </div>
   );
 }
