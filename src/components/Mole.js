@@ -11,7 +11,7 @@ export default function Mole(props){
     })
     return (
         <div>
-            <img src={mole} alt="mole" onClick={props.moleClicked} className="mole"/>
+            <img src={mole} alt="mole" onClick={props.Clicked} className="mole"/>
         </div>
     )
 }

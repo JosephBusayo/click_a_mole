@@ -10,9 +10,8 @@ export default function EmptySlot(props){
         }, randomSeconds)
         return () => clearTimeout(timer)
     })
+
     return(
-        <div>
-            <img src={molehill} alt="molehill" className="empty-slot"/>
-        </div>
+            <img src={molehill} alt="molehill" className="empty-slot" onClick={props.Clicked}/>
     )
 }
