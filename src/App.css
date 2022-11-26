@@ -4,21 +4,75 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 90vh
+  height: 100vh;
+
 }
+
+/*|| Mobile Screen*/
 .mole, .empty-slot{
-  width: 120px;
+  width: 150px;
   height: 100px;
 }
 .mole-container{
-  display: inline-block
+  display: inline-block;
 }
 .wrapper{
   display: flex;
-  gap: 100px;
 }
 p{
   font-size: 2rem;
   color: green;
   font-weight: bold;
+}
+.btn{
+  outline: none;
+  border: none;
+  padding: 5px 8px;
+  font-size: 1rem;
+  background-color: green;
+  color: white;
+  border-radius: 5px
+}
+
+
+/*|| Tablet Screen */
+@media screen and (min-width: 500px){
+  .mole, .empty-slot{
+    width: 200px;
+    height: 200px;
+  } 
+  p{
+    font-size: 4rem;
+    margin-top: -10px
+  }
+  .wrapper{
+    margin-top: -50px
+  }
+
+  h1{
+    font-size:4rem;
+  }
+  .btn{
+    font-size: 1.8rem;
+    padding: 8px 12px
+  }
+}
+
+
+/*|| Laptop Screen */
+@media screen and (min-width: 500px){
+  .mole, .empty-slot{
+    width: 220px;
+    height: 220px;
+  } 
+  p{
+    font-size: 4rem;
+  }
+  h1{
+    font-size:4rem
+  }
+  .btn{
+    font-size: 1.8rem;
+    padding: 8px 12px
+  }
 }
