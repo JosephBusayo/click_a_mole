@@ -1,9 +1,14 @@
-.App{
+.App, .gameover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-
+  height: 90vh
 }
 .mole, .empty-slot{
-  width: 120px
+  width: 120px;
+  height: 100px;
 }
 .mole-container{
   display: inline-block
@@ -11,7 +16,6 @@
 .wrapper{
   display: flex;
   gap: 100px;
-  border: 1px solid red
 }
 p{
   font-size: 2rem;

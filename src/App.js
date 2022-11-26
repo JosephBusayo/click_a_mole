@@ -7,7 +7,7 @@ function App() {
 
   const createMoleHill = () => {
     let hills = []
-    for (let i=0; i < 10; i++){
+    for (let i=0; i < 8; i++){
       hills.push(
         <MoleContainer key={i} setScore = {setScore} score={score}/>
       )
@@ -20,7 +20,7 @@ function App() {
   const playing = () => {
     return(
       <div className="App">
-      <h1>Click-a-Mole</h1>
+      <h1>Save The Farm</h1>
       <p>{score} </p>
       <div className="wrapper"> {createMoleHill()} </div>
     </div>
@@ -29,7 +29,7 @@ function App() {
   
   const gameOver = () => {
     return(
-      <div className="gamover">
+      <div className="gameover">
         <h1>Game Over</h1>
         <button className="btn" onClick={() => setScore(0)}>Restart</button>
       </div>

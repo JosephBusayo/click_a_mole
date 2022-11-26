@@ -9,11 +9,13 @@ export default function MoleContainer(props){
 
      const Clicked = () => {
       /* add or subtact 1 if user clicks mole or hole respectively */
-      displayMole ? props.setScore(props.score +1) && setDisplayMole(false) : props.setScore(props.score -1)
+      displayMole ? props.setScore(props.score +1) : props.setScore(props.score -1)
+      setDisplayMole(false) 
      }
 
      return (
         <div className="mole-container">
+            {/* value of displayMole is not constant */}
             {displayMole ? <Mole setDisplayMole={setDisplayMole} Clicked={Clicked}/> : <EmptySlot setDisplayMole={setDisplayMole} Clicked={Clicked}/>}
         </div>
      )
