@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import mole from '../img/mole.jpg'
+import mole from '../img/mole.png'
 
 export default function Mole(props){
     var randomSeconds
