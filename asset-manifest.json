@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/click_a_mole/static/css/main.986e4299.css",
-    "main.js": "/click_a_mole/static/js/main.91a76fe5.js",
+    "main.css": "/click_a_mole/static/css/main.6d5202e6.css",
+    "main.js": "/click_a_mole/static/js/main.cda7551d.js",
     "static/js/787.9cb3e5b4.chunk.js": "/click_a_mole/static/js/787.9cb3e5b4.chunk.js",
-    "static/media/mole.jpg": "/click_a_mole/static/media/mole.7278bbaa50d615f37160.jpg",
-    "static/media/molehill.jpg": "/click_a_mole/static/media/molehill.fc73da6aade85d638083.jpg",
+    "static/media/garden.jpg": "/click_a_mole/static/media/garden.84b408e4a9eecad32baa.jpg",
+    "static/media/mole.png": "/click_a_mole/static/media/mole.e0861d18c1bcd8c9a562.png",
+    "static/media/molehill.png": "/click_a_mole/static/media/molehill.9d45b65241dd0a4c3f70.png",
     "index.html": "/click_a_mole/index.html",
-    "main.986e4299.css.map": "/click_a_mole/static/css/main.986e4299.css.map",
-    "main.91a76fe5.js.map": "/click_a_mole/static/js/main.91a76fe5.js.map",
+    "main.6d5202e6.css.map": "/click_a_mole/static/css/main.6d5202e6.css.map",
+    "main.cda7551d.js.map": "/click_a_mole/static/js/main.cda7551d.js.map",
     "787.9cb3e5b4.chunk.js.map": "/click_a_mole/static/js/787.9cb3e5b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.986e4299.css",
-    "static/js/main.91a76fe5.js"
+    "static/css/main.6d5202e6.css",
+    "static/js/main.cda7551d.js"
   ]
 }
